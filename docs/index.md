@@ -21,19 +21,19 @@ There are many reasons to implement a User-Defined Function (though there is ove
 
 
 ### Scalar vs. Inline vs. Multi-Statement Functions
-o	Scalar Function
-•	Returns a scalar value
-•	Can accept parameters
-o	Inline Function
-•	Returns a table value
-•	Can accept parameters
-•	Doesn't define the returned table
-•	Structure is primarily inside the Return statement where the table values get selected
-o	Multi-Statement Function
-•	Returns a table value
-•	Can accept parameters
-•	Defines the returned table
-•	Structure is primarily outside the Return statement where the created table gets filled in
+- Scalar Function
+  * Returns a scalar value
+  * Can accept parameters
+- Inline Function
+  * Returns a table value
+  * Can accept parameters
+  * Doesn't define the returned table
+  * Structure is primarily inside the Return statement where the table values get selected
+- Multi-Statement Function
+  * Returns a table value
+  * Can accept parameters
+  * Defines the returned table
+  * Structure is primarily outside the Return statement where the created table gets filled in
 
 
 
